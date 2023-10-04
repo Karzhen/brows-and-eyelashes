@@ -94,6 +94,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 h3 {
@@ -113,7 +114,7 @@ h3 {
 }
 
 #content ul li {
-    line-height: 2vh;
+    line-height: 1.5vh;
 }
 
 .text {
@@ -178,22 +179,29 @@ button:hover {
     margin: 0;
 }
 
+.content-images {
+    width: 165px;
+    height: 134px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
 
 .content-left {
     width: 74px;
     height: 86px;
     filter: grayscale(100%);
-    position: relative;
+    position: absolute;
     bottom: 0;
-    right: 91px;
+    left: 0;
 }
 
 .content-right {
     width: 104px;
     height: 121px;
     filter: grayscale(100%);
-    position: relative;
-    bottom: 13px;
+    position: absolute;
+    top: 0;
     right: 0;
 }
 
