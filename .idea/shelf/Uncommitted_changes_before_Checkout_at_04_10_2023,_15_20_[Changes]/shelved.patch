@@ -1,0 +1,106 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Brows and eyelashes</title>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n<header></header>\n<main>\n    <section id=\"welcome\" class=\"welcome\">\n        <h1>Brows<span><br>and<br></span>eyelashes</h1>\n    </section>\n    <section id=\"brow-images\" class=\"brow-images\">\n        <img src=\"images/brow-left.jpeg\" alt=\"\">\n        <img src=\"images/brow-right.jpeg\" alt=\"\">\n    </section>\n    <section id=\"content\" class=\"content\">\n        <h2>Базовый курс</h2>\n        <h3>“aestetics of natural brows”</h3>\n        <p class=\"text content-text\">2 полных дня<br>индивидуальный формат<br>5 моделей практика для цепляющего продающего визуала  </p>\n        <ul>\n            <li class=\"text\">Все материалы для обучения предоставляются, а также модели для отработок</li>\n            <li class=\"text\">каждой ученице выдается методическое пособие со всей информацией, в которой можно писать дополнительно</li>\n            <li class=\"text\">обратная связь и поддержка в течении 2-х месяцев</li>\n            <li class=\"text\">именной сертификат</li>\n            <li class=\"text\">консультация по упаковке профиля</li>\n        </ul>\n        <p class=\"price\">стоимость - 17 000 рублей</p>\n        <button>Купить</button>\n        <!--        <div class=\"content-images\">-->\n        <!--            <img src=\"images/content-left.jpeg\" alt=\"\" class=\"content-left\">-->\n        <!--            <img src=\"images/content-right.jpeg\" alt=\"\" class=\"content-right\">-->\n        <!--        </div>-->\n    </section>\n    <section id=\"brows\" class=\"brows\">\n        <h2>prise brows</h2>\n        <div class=\"container\">\n            <img src=\"images/brow-image.jpeg\" alt=\"\">\n            <ul>\n                <li class=\"text\">оформление бровей - <span class=\"gold-price\">1400 рублей</span>\n                    (окрашивание / осветление, коррекция)</li>\n                <li class=\"text\">коррекция бровей - <span class=\"gold-price\">900 рублей</span>\n                    (воск / пинцет, прореживание по желанию)</li>\n                <li class=\"text\">долговременная укладка - <span class=\"gold-price\">1400 рублей</span>\n                    (с коррекцией без окрашивания + уход)</li>\n                <li class=\"text\">долговременная укладка - <span class=\"gold-price\">1800 рублей</span>\n                    (с коррекцией и окрашиванием +уход)</li>\n            </ul>\n        </div>\n        <button>Записаться</button>\n    </section>\n    <section id=\"lashes\" class=\"lashes\">\n        <h2>prise lashes</h2>\n        <div class=\"container\">\n            <img src=\"images/lash-image.jpeg\" alt=\"\">\n            <ul>\n                <li class=\"text\">ламинирование ресниц - 1900 рублей\n                    (окрашивание +уход)</li>\n                <li class=\"text\">окрашивание ресниц - 400 рублей\n                    (с церамидным уходом)</li>\n                <li class=\"text\">снятие нарощенных - 400 рублей</li>\n            </ul>\n        </div>\n        <button>Записаться</button>\n    </section>\n    <section id=\"set\" class=\"set\">\n        <h2>set</h2>\n        <ul>\n            <li class=\"text\">ламинирование ресниц +оформление бровей  - 3000 рублей</li>\n            <li class=\"text\">ламинирование ресниц + полный комплекс долговременной укладки - 3400 рублей</li>\n        </ul>\n        <button>Записаться</button>\n    </section>\n    <section id=\"address\" class=\"address\">\n        <h2>Адрес</h2>\n        <div class=\"container\">\n            <img src=\"images/map.png\" alt=\"\" class=\"map\">\n            <p class=\"text\">метро сенная площадь / спасская / садовая (5 минут пешком)<br>бц “на сенной” 4 этаж, 478 кабинет</p>\n        </div>\n    </section>\n</main>\n<footer>\n    <p>Контакты</p>\n    <ul>\n        <li><img src=\"images/instagram.svg\" alt=\"\"></li>\n        <li><img src=\"images/facebook.svg\" alt=\"\"></li>\n        <li><img src=\"images/tiktok.svg\" alt=\"\"></li>\n        <li><img src=\"images/phone.svg\" alt=\"\"></li>\n    </ul>\n</footer>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 991c089475b9ee6492e17475c718fc7ca250b829)
++++ b/index.html	(date 1696421985173)
+@@ -2,92 +2,9 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Brows and eyelashes</title>
+-    <link rel="stylesheet" href="styles.css">
++    <title>Title</title>
+ </head>
+ <body>
+-<header></header>
+-<main>
+-    <section id="welcome" class="welcome">
+-        <h1>Brows<span><br>and<br></span>eyelashes</h1>
+-    </section>
+-    <section id="brow-images" class="brow-images">
+-        <img src="images/brow-left.jpeg" alt="">
+-        <img src="images/brow-right.jpeg" alt="">
+-    </section>
+-    <section id="content" class="content">
+-        <h2>Базовый курс</h2>
+-        <h3>“aestetics of natural brows”</h3>
+-        <p class="text content-text">2 полных дня<br>индивидуальный формат<br>5 моделей практика для цепляющего продающего визуала  </p>
+-        <ul>
+-            <li class="text">Все материалы для обучения предоставляются, а также модели для отработок</li>
+-            <li class="text">каждой ученице выдается методическое пособие со всей информацией, в которой можно писать дополнительно</li>
+-            <li class="text">обратная связь и поддержка в течении 2-х месяцев</li>
+-            <li class="text">именной сертификат</li>
+-            <li class="text">консультация по упаковке профиля</li>
+-        </ul>
+-        <p class="price">стоимость - 17 000 рублей</p>
+-        <button>Купить</button>
+-        <!--        <div class="content-images">-->
+-        <!--            <img src="images/content-left.jpeg" alt="" class="content-left">-->
+-        <!--            <img src="images/content-right.jpeg" alt="" class="content-right">-->
+-        <!--        </div>-->
+-    </section>
+-    <section id="brows" class="brows">
+-        <h2>prise brows</h2>
+-        <div class="container">
+-            <img src="images/brow-image.jpeg" alt="">
+-            <ul>
+-                <li class="text">оформление бровей - <span class="gold-price">1400 рублей</span>
+-                    (окрашивание / осветление, коррекция)</li>
+-                <li class="text">коррекция бровей - <span class="gold-price">900 рублей</span>
+-                    (воск / пинцет, прореживание по желанию)</li>
+-                <li class="text">долговременная укладка - <span class="gold-price">1400 рублей</span>
+-                    (с коррекцией без окрашивания + уход)</li>
+-                <li class="text">долговременная укладка - <span class="gold-price">1800 рублей</span>
+-                    (с коррекцией и окрашиванием +уход)</li>
+-            </ul>
+-        </div>
+-        <button>Записаться</button>
+-    </section>
+-    <section id="lashes" class="lashes">
+-        <h2>prise lashes</h2>
+-        <div class="container">
+-            <img src="images/lash-image.jpeg" alt="">
+-            <ul>
+-                <li class="text">ламинирование ресниц - 1900 рублей
+-                    (окрашивание +уход)</li>
+-                <li class="text">окрашивание ресниц - 400 рублей
+-                    (с церамидным уходом)</li>
+-                <li class="text">снятие нарощенных - 400 рублей</li>
+-            </ul>
+-        </div>
+-        <button>Записаться</button>
+-    </section>
+-    <section id="set" class="set">
+-        <h2>set</h2>
+-        <ul>
+-            <li class="text">ламинирование ресниц +оформление бровей  - 3000 рублей</li>
+-            <li class="text">ламинирование ресниц + полный комплекс долговременной укладки - 3400 рублей</li>
+-        </ul>
+-        <button>Записаться</button>
+-    </section>
+-    <section id="address" class="address">
+-        <h2>Адрес</h2>
+-        <div class="container">
+-            <img src="images/map.png" alt="" class="map">
+-            <p class="text">метро сенная площадь / спасская / садовая (5 минут пешком)<br>бц “на сенной” 4 этаж, 478 кабинет</p>
+-        </div>
+-    </section>
+-</main>
+-<footer>
+-    <p>Контакты</p>
+-    <ul>
+-        <li><img src="images/instagram.svg" alt=""></li>
+-        <li><img src="images/facebook.svg" alt=""></li>
+-        <li><img src="images/tiktok.svg" alt=""></li>
+-        <li><img src="images/phone.svg" alt=""></li>
+-    </ul>
+-</footer>
++
+ </body>
+ </html>
+\ No newline at end of file
