@@ -152,6 +152,7 @@ button {
     border: 1px solid #000;
     text-align: center;
     background-color: #FFF;
+    transition: 1.5s;
     margin-top: 15px;
 
     color: #000;
@@ -162,6 +163,12 @@ button {
     line-height: normal;
     /*font-variant: small-caps;*/
     text-transform: lowercase;
+}
+
+button:hover {
+    background-color: #676767;
+    color: #FFFFFF;
+    transition: 1.5s;
 }
 
 #content button {
